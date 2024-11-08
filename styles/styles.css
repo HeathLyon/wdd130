@@ -1,6 +1,6 @@
 
 main {
-    width:auto;
+    max-width:780;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.655); 
     padding: 1rem;
