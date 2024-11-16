@@ -3,9 +3,6 @@
     --secondary-color: #A0C1B9;
     --accent1-color: #70A0AF; 
     --accent2-color: #706993; 
-    --heading-font: '',,;
-    --text-font: '',,;
-    --padding: 1rem;  
 }
 main {
     max-width: 1800px;
@@ -39,8 +36,7 @@ main {
 	border: 1px solid --accent2-color;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px --accent2-color;
-	opacity: 0.9;
-}
+	}
 h2 {
    color: var(--accent2-color); 
 }
