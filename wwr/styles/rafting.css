@@ -4,18 +4,7 @@
     --accent1-color: #70A0AF; 
     --accent2-color: #706993; 
 }
-.oswald-uniquifier {
-    font-family: "Oswald", serif;
-    font-optical-sizing: none;
-    font-weight: normal;
-    font-style: normal;
-  }
-.roboto-slab-uniquifier {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: none;
-    font-weight: normal;
-    font-style: normal;
-  }  
+ 
 main{
     max-width: 1800px;
     margin: 1rem;
