@@ -37,7 +37,7 @@ main{
 }
 h2{
    color: var(--accent2-color);
-   font-family: 'oswald'sans-serif; 
+   font-family: 'oswald',sans-serif; 
 }
 #link1{
     text-decoration: none;
