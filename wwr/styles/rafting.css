@@ -40,7 +40,13 @@ main{
 h2{
    color: var(--accent2-color); 
 }
-#links{
+#link1{
+    text-decoration: none;
+}
+#link2{
+    text-decoration: none;
+}
+#link3{
     text-decoration: none;
 }
 #imgart{
