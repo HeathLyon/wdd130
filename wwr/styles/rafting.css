@@ -14,19 +14,16 @@ main{
     text-align: center;
     font-family: 'oswald';
     font-size: 1.4rem;
-
 }
 .hero{
     position: relative;
     margin: 30px auto;
 }
-
 .hero h1{
     position: absolute;
     text-align: center;
     font-size: 3rem;
     color: var(--accent2-color);
-    
 }
 .art1{
     position: absolute;
