@@ -24,12 +24,14 @@
 <body>
     <header>
         <div class = logotitle>
-        <img src="images/logo.png" alt="Logo" width="150">
+        <img src="images/logo.png" alt="Logo" width="200" id = logopng>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
         </nav>
         </div>
     </header>
@@ -39,37 +41,55 @@
             <img src="images/raftingwide.jpg " alt="Hero">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
             <article class = "art1">
-                <img src="images/raftinghappy.jpg" alt = "happy" id = imgart>
-                <p>company purpose, mission, creed, motto, etc.</p>
+                <img src="images/raftinghappy.jpg" alt = "happy" class = logopng>
             </article>   
         </div>
         <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit asperiores quidem, explicabo impedit fuga quae dolorem excepturi hic enim officia quaerat dignissimos similique officiis in tempore aliquid nulla aut iure.</p>
+            <div class = history>
+                <h2>History</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit asperiores quidem, explicabo impedit fuga quae dolorem excepturi hic enim officia quaerat dignissimos similique officiis in tempore aliquid nulla aut iure.</p>
+            </div>
         </section>
-        <section>
-            <h2>Adventure Awaits You</h2>
-            <img src="images/rafting1.jpg  " alt="Icon" >
-            <img src="images/rafting2.jpg  " alt="Icon" >
-            <img src="images/rafting3.jpg  " alt="Icon" >
-            <img src="images/salmon1.jpg " alt="Icon" >
-            <img src="images/salmon2.jpg  " alt="Icon" >
-        </section>
-    </main>
-    <footer>
-        <p>Heath Lyon ©️ Rapid Rafting 2024 </p>
-        <nav class="socallinks">
-            <a href="https//facebook.com" id = link1>
-                <img src="images/BW_Facebook_2_glyph_svg-64.webp" alt="Facebook">
-            </a>
-            <a href="https//twitter.com" id = link2>
-                <img src="images/104501_twitter_bird_icon.png" alt="Twiter">
-            </a>
-            <a href="https//instagram.com" id = link3>
-                <img src="images/1161953_instagram_icon.png" alt="Instagram">
-            </a>
-        </nav>    
-    </footer>
+            <section>
+                <div class="adventureblock">
+                    <h2>Adventure Awaits You</h2>
+                    <div class = picsadventure>
+                        <div class="imgone">
+                        <img src="images/rafting1.jpg  " alt="Icon" id ="one">
+                        </div>
+                        <div clas="imgtwo">
+                        <img src="images/rafting2.jpg  " alt="Icon" id ="two">
+                        </div>
+                        <div class=" imgthree">
+                        <img src="images/rafting3.jpg  " alt="Icon" id ="three">
+                        </div>
+                        <div class="imgfour">
+                        <img src="images/salmon1.jpg " alt="Icon" id ="four">
+                        </div>
+                        <div class="imgfive">
+                        <img src="images/salmon2.jpg  " alt="Icon" id ="five">
+                    </div>
+                </div>
+            </section>
+            </main>
+    <div class="footerlinks">
+        <footer>
+            <div class="footertext">
+            <p>Heath Lyon ©️ Rapid Rafting 2024 </p>
+            </div>
+            <nav class="socallinks">
+                <a href="https//facebook.com" id = link1>
+                    <img src="images/BW_Facebook_2_glyph_svg-64.webp" alt="Facebook">
+                </a>
+                <a href="https//twitter.com" id = link2>
+                    <img src="images/104501_twitter_bird_icon.png" alt="Twiter">
+                </a>
+                <a href="https//instagram.com" id = link3>
+                    <img src="images/1161953_instagram_icon.png" alt="Instagram">
+                </a>
+            </nav>    
+        </footer>
+    </div>
 </body>
 <!--11/17/2024-->
 </html>
