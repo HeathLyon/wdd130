@@ -4,7 +4,6 @@
     --accent1-color: #70A0AF; 
     --accent2-color: #706993; 
 }
- 
 main{
     max-width: 1800px;
     margin: 1rem;
@@ -29,7 +28,7 @@ main{
 .art1{
     position: absolute;
 	top: 25px;
-	right: 25px;
+	right: 2rem;    
 	background: radial-gradient(#eee, var(--accent1-color));
 	border: 1px solid var(--accent2-color);
 	padding: 0.65rem;
