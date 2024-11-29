@@ -33,24 +33,21 @@ main{
     font-size: 1.4rem;
 }
 .hero{
-    position: relative;
+    
     margin: 10px auto;
+
+}
+.heroimg{
+    max-width: 3rem;
+    max-height: 3rem;
 }
 .hero h1{
-    position: absolute;
+    
     text-align: center;
     font-size: 6rem;
     color: black;
 }
-.art1{
-    position: absolute;
-	top: 25px;
-	right: 2rem;    
-	background: radial-gradient(#ffffff, var(--accent1-color));
-	border: 1px solid var(--accent1-color);
-	padding: .001rem;
-	box-shadow: 0 0 100px var(--accent1-color);
-}
+
 h2{
    color: black;
    font-family: 'oswald',sans-serif; 
