@@ -33,21 +33,24 @@ main{
     font-size: 1.4rem;
 }
 .hero{
-    
+    min-height: 35rem;
     margin: 10px auto;
-
+    background: radial-gradient(#ffffff, var(--accent1-color));
+	border: 3px solid var(--accent1-color);
+	padding: 3rem;
+	box-shadow: 0 0 70px var(--accent1-color); 
+    
 }
 .heroimg{
-    max-width: 3rem;
-    max-height: 3rem;
+    display: flex; 
+    justify-content: right;
+    min-height: 5rem;
+    margin: 10px auto;
+    background: radial-gradient(#ffffff, var(--accent1-color));
+	border: 3px solid var(--accent1-color);
+	padding: 3rem;
+	box-shadow: 0 0 70px var(--accent1-color);
 }
-.hero h1{
-    
-    text-align: center;
-    font-size: 6rem;
-    color: black;
-}
-
 h2{
    color: black;
    font-family: 'oswald',sans-serif; 
