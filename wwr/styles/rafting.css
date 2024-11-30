@@ -7,7 +7,7 @@
 .logotitle {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 300px 1fr 1fr 1fr;
+	grid-template-columns: 65% 35% 5rem 5rem 5rem 5rem ;
     justify-content: space-around;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
@@ -18,7 +18,9 @@
 	list-style: none;
     
 }
-
+.art1{
+ max-width: 50%;
+}
 .navigation li {
 	flex: 1 1 100%;
 }
@@ -90,7 +92,7 @@ p{
 }
 .picsadventure{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 18% 18% 18% 18% 18%;
 }
 .history{
     background: radial-gradient(#ffffff, var(--accent1-color));
@@ -130,4 +132,7 @@ p{
 #five{
     max-width: 10rem;
     
+}
+.figcaption{
+    font-style: italic;
 }
