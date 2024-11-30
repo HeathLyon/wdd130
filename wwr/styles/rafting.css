@@ -16,6 +16,7 @@
 .navigation {
 	display: flex;
 	list-style: none;
+    
 }
 
 .navigation li {
@@ -38,7 +39,7 @@ main{
     background: radial-gradient(#ffffff, var(--accent1-color));
 	border: 3px solid var(--accent1-color);
 	padding: 3rem;
-	box-shadow: 0 0 70px var(--accent1-color); 
+	box-shadow: 0 0 10px var(--accent1-color); 
     
 }
 .heroimg{
@@ -47,9 +48,13 @@ main{
     min-height: 5rem;
     margin: 10px auto;
     background: radial-gradient(#ffffff, var(--accent1-color));
-	border: 3px solid var(--accent1-color);
-	padding: 3rem;
+	border: 1px solid var(--accent1-color);
+	padding: 8rem;
 	box-shadow: 0 0 70px var(--accent1-color);
+}
+.heroimgimg{
+    height: 200px;
+    width: 280px;
 }
 h2{
    color: black;
@@ -108,21 +113,21 @@ p{
 }
 #one{
     max-width: 10rem;
-    max-height: 1fr;
+    
 }
 #two{
     max-width: 10rem;
-    max-height: 1fr;
+    
 }               
 #three{
     max-width: 10rem;
-    max-height: 1fr;
+    
 }
 #four{
     max-width: 10rem;
-    max-height: 1fr;
+    
 }                  
 #five{
     max-width: 10rem;
-    max-height: 1fr;
+    
 }
