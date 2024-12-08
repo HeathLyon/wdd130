@@ -137,7 +137,9 @@ p{
 .happyimgs{
     position: relative;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    
-    
+    grid-template-columns: 33% 33% 33%; 
+}
+.form{
+    display: grid;
+    grid-template-columns: 100%; 
 }
