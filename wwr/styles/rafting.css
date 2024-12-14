@@ -1,8 +1,8 @@
 :root{
-    --primary-color: #F4E8C1;
-    --secondary-color: #A0C1B9;
-    --accent1-color: #70A0AF; 
-    --accent2-color: #706993; 
+    --primary-color: #2b223d;
+    --secondary-color: #05fbbe;
+    --accent1-color: #4ac3e8; 
+    --accent2-color: #1f135a; 
 }
 .logotitle {
 	margin: 1rem auto;
@@ -93,12 +93,21 @@ p{
 .picsadventure{
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
+    
+}
+.trips{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background: radial-gradient(#ffffff, var(--accent1-color));
+	border: 3px solid var(--accent1-color);
+	padding: 3rem;
+	box-shadow: 0 0 70px var(--accent1-color);   
 }
 .history{
     background: radial-gradient(#ffffff, var(--accent1-color));
 	border: 3px solid var(--accent1-color);
 	padding: 3rem;
-	box-shadow: 0 0 70px var(--accent1-color);
+	
 }
 .footertext{
     float: left;
@@ -142,4 +151,18 @@ p{
 .form{
     display: grid;
     grid-template-columns: 100%; 
+}
+.titlehome{
+    font-size: 10rem;
+    position: absolute;
+    color: #4ac3e8;
+    border: 3px solid var(--accent1-color);
+    background: #01110fb9;
+    
+}
+#book{
+    font-size: 5rem;
+}
+#linkclick{
+    font-size: 5rem;
 }
