@@ -21,6 +21,10 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+.heroimgimglarge {
+    width:100%;
+    position: absolute;
+}
 aside {
     max-width:780px;
     margin: 1rem;
